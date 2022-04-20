@@ -1,3 +1,5 @@
+/***** Common ******/
+
 body{
     font-family: "monospace", "sans-serif";
 }
@@ -9,6 +11,20 @@ body{
 .title-icon{
     font-size: 20px;
     font-weight: bold;
+}
+
+p{
+    font-size: 14px;
+}
+
+h2{
+    font-weight: bold;
+    font-size: 23px;
+    margin-bottom: 20px;
+}
+
+a.font-black{
+    color: #000 !important;
 }
 
 /**** ABOUT ****/
@@ -54,4 +70,23 @@ body{
 
 #about .icon a{
     color: #000;
+}
+
+/****** Projects **********/
+
+#project{
+    margin: 60px auto;
+    max-width: 80%;
+}
+
+#project h2{
+    text-align: center;
+}
+
+#project .card img{
+    width: 100%;
+}
+
+#project .card-title{
+    font-weight: bold;
 }
